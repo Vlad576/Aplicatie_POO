@@ -716,14 +716,14 @@ public:
             if (opt == 0) break;
             switch (opt) {
                 case 1:
-                    citesteCamereDinFisier("C:\\Users\\vladu\\CLionProjects\\Aplicatie_POO\\camere.in", camere);
+                    citesteCamereDinFisier("camere.in", camere);
                     break;
                 case 2:
-                    citesteBirouriDinFisier("C:\\Users\\vladu\\CLionProjects\\Aplicatie_POO\\birouri.in",
+                    citesteBirouriDinFisier("birouri.in",
                         birouri);
                     break;
                 case 3:
-                    citesteClientiDinFisier("C:\\Users\\vladu\\CLionProjects\\Aplicatie_POO\\clienti.in",
+                    citesteClientiDinFisier("clienti.in",
                         clienti);
                     break;
                 case 4:
