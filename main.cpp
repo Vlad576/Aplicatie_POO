@@ -390,10 +390,11 @@ class Rezervare {
     static int id_generator;
     int id;
     Client* client;
-    T* spatiu;
+    int numar_persoane;
     Data data_inceput;
     Data data_sfarsit;
-    int numar_persoane;
+    T* spatiu;
+
 public:
     Rezervare();
     Rezervare(Client*, int, Data, Data, T*);
